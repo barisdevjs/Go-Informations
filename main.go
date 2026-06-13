@@ -1,7 +1,7 @@
 package main
 
 import (
-	waitgroups "github.com/barisdevjs/Go-Informations/waitGroups"
+	"github.com/barisdevjs/Go-Informations/channels"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 	// goroutines.Goroutines1()
 	// channels.Channel1()
 	// channels.Channels4()
-	// channels.NonBlocking()
+	channels.NonBlocking()
 	// channels.NonBlocking2()
 	// selectP.Select1()
 	// selectP.Select2()
@@ -23,5 +23,5 @@ func main() {
 	// timer.Timer1()
 	// timer.Ticker1()
 	// channels.WorkerPool()
-	waitgroups.WaitGroup1()
+	// waitgroups.WaitGroup1()
 }

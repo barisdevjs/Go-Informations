@@ -8,7 +8,7 @@ import (
 
 func worker(id int) {
 	fmt.Printf("Worker %d starting\n", id)
-	time.Sleep(time.Second)
+	time.Sleep(time.Duration(id))
 	fmt.Printf("Worker %d done\n", id)
 }
 
